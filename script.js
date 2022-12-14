@@ -1,4 +1,4 @@
-alert("Hello");
+//alert("This page is an exercise");
 
 //The below code will get the array of li items and display in the console.
 
@@ -15,7 +15,7 @@ console.log(classDemo);
 
 //The below code will turn the first button on the page silver.
 
-document.getElementsByClassName("btn")[0].style.color = "silver";
+document.getElementsByClassName("btn")[0].style.color = "black";
 
 //The below code will return the first element that is a link in an li.
 //When combining two elements then there is a space.
@@ -45,3 +45,24 @@ console.log("This is queryDemoFour" + queryDemoFour);
 
 let redChallenge = document.querySelector("li a").style.color = "red";
 console.log(redChallenge);
+
+/*Challenge: Make the background color of the button yellow.*/
+
+let yellowChallenge = document.querySelector(".btn").style.backgroundColor = "yellow";
+
+//The below code adds a class to the selected element.
+
+let addClass = document.querySelector(".btn").classList.add("invisible");
+
+//Self-explanatory
+
+let removeClass = document.querySelector(".btn").classList.remove("invisible");
+
+//Applies or removes a class depending on its state.
+
+let toggleClass = document.querySelector(".btn").classList.toggle("invisible");
+
+let hugeAdd = document.querySelector("h1").classList.add("huge");
+let hugeToggle = document.querySelector("h1").classList.toggle("huge");
+
+document.querySelector("h1").classList.toggle("huge");
