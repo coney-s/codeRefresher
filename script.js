@@ -66,3 +66,9 @@ let hugeAdd = document.querySelector("h1").classList.add("huge");
 let hugeToggle = document.querySelector("h1").classList.toggle("huge");
 
 document.querySelector("h1").classList.toggle("huge");
+
+// innerHTML will also let you add html inside your tag.
+document.getElementById("greeting").innerHTML = "<em>Hello</em>";
+
+//Whereas textContent will just manipulate the text content inside the tag.
+document.getElementById("greeting").textContent = "I am a fish.";
