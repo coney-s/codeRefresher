@@ -72,3 +72,18 @@ document.getElementById("greeting").innerHTML = "<em>Hello</em>";
 
 //Whereas textContent will just manipulate the text content inside the tag.
 document.getElementById("greeting").textContent = "I am a fish.";
+
+//HTML Attribute Manipulation
+
+//The below code will give me all the attributes attached to an element.
+
+document.querySelector("a").attributes;
+
+//I can access that attribute by
+
+document.querySelector("a").getAttribute("href");
+
+//I can change the attribute by
+
+document.querySelector("a").setAttribute("href", "https://www.left-bank.com/book/9781250866837")
+
